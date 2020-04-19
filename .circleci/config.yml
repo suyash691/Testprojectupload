@@ -10,3 +10,5 @@
      steps:
        - checkout
        - run: dotnet build
+       - store_test_results:
+         path: ./
